@@ -3,16 +3,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>詹皇时代_WE ARE WITNESS</title>
-<meta name="applicable-device" content="pc" />
 <link href="favicon.ico" type="image/x-icon" rel="icon"/>
 <link href="template/pc/css/base.css" rel="stylesheet">
 <link href="static/iconfont/iconfont.css" rel="stylesheet">
 <script>var _site = {serarch_url : '/search/all//1/' , topcid: '0' , model: 'index'}</script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="template/pc/js/common.js"></script>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
     google_ad_client: "ca-pub-3587621771782409",
@@ -22,27 +20,12 @@
 </head>
 <body>
 <div id="container">
-	<div id="logo"><a href="/">湖人国度</a></div>
-<div id="nav">
-    <ul>
-    <li data-model="index" data-cid="0"><a href="/">首页</a></li>
-    <li data-model="article" data-cid="18"><a href="/list/article/18-1/">新闻</a></li>
-    <li data-model="article" data-cid="19">
-        <a href="/list/article/19-1/">专栏<i class="iconfont icon-unfold"></i></a>
-        <div class="subnav">
-        <a href="/list/article/20-1/">洛言洛语</a><a href="/list/article/21-1/">名宿点评</a><a href="/list/article/24-1/">专业球评</a>        </div>
-    </li>
-    <li data-model="video" data-cid="0">
-        <a href="/list/video/0-1/">视频<i class="iconfont icon-unfold"></i></a>
-        <div class="subnav">
-        <a href="/list/video/26-1/">赛后采访</a><a href="/list/video/28-1/">球队动态</a><a href="/list/video/27-1/">幕后故事</a><a href="/list/video/25-1/">球家大事记</a>        </div>
-    </li>
-    <li data-model="info" data-cid="23"><a href="/list/info/23-1/">流言</a></li>
-    <li data-model="game" data-cid="0"><a href="https://www.maiyapai.com/" target="_blank">比赛</a></li>
-    </ul>
-</div>
-<div id="message">
-    <span>站内公告</span>60E湖蜜的专属国度！</div>
+	<div id="logo"><a href="/">詹皇时代</a></div>
+
+		<jsp:include page="header.jsp"></jsp:include>
+
+		<div id="message">
+    <span>站内公告</span>WE ARE WITNESS！</div>
     
     <div class="piclist clearfix">
         <a class="item index-0" href="/show/article/275/">
