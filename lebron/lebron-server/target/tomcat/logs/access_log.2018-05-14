@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [14/May/2018:08:50:34 +0800] "GET /lebron/index.html HTTP/1.1" 404 985 http-bio-8081-exec-1 95
+0:0:0:0:0:0:0:1 - - [14/May/2018:08:50:46 +0800] "GET /lebron/index.JSP HTTP/1.1" 404 983 http-bio-8081-exec-2 3
+0:0:0:0:0:0:0:1 - - [14/May/2018:08:50:46 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8081-exec-3 0
+0:0:0:0:0:0:0:1 - - [14/May/2018:08:50:46 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8081-exec-4 0
+0:0:0:0:0:0:0:1 - - [14/May/2018:08:50:53 +0800] "GET /lebron/index.jsp HTTP/1.1" 200 19147 http-bio-8081-exec-5 1318
+0:0:0:0:0:0:0:1 - - [14/May/2018:08:50:53 +0800] "GET /lebron/template/pc/css/base.css HTTP/1.1" 200 9400 http-bio-8081-exec-6 32
+0:0:0:0:0:0:0:1 - - [14/May/2018:08:50:53 +0800] "GET /lebron/template/pc/js/common.js HTTP/1.1" 200 5134 http-bio-8081-exec-8 30
+0:0:0:0:0:0:0:1 - - [14/May/2018:08:50:53 +0800] "GET /lebron/static/iconfont/iconfont.css HTTP/1.1" 200 35270 http-bio-8081-exec-7 55
+0:0:0:0:0:0:0:1 - - [14/May/2018:08:50:53 +0800] "GET /static/image/gzh.jpg HTTP/1.1" 404 - http-bio-8081-exec-10 0
+0:0:0:0:0:0:0:1 - - [14/May/2018:08:50:53 +0800] "GET /static/logo/720.gif HTTP/1.1" 404 - http-bio-8081-exec-7 0
+0:0:0:0:0:0:0:1 - - [14/May/2018:08:50:54 +0800] "GET /lebron/favicon.ico HTTP/1.1" 200 16958 http-bio-8081-exec-3 60
