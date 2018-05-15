@@ -14,7 +14,7 @@
 		<!-- mybatis全局文件 -->
 		<property name="configLocation" value="classpath:mybatis/mybatis-config.xml"/>
 		<!-- 扫描mapper -->
-		<property name="mapperLocations" value="classpath*:com/ky/sorry/dao/mapper/**/*.xml"/> 
+		<property name="mapperLocations" value="classpath*:com/ky/lebron/dao/mapper/*.xml"/> 
 	</bean>
 	
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">

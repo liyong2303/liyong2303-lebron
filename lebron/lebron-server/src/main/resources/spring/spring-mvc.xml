@@ -10,7 +10,7 @@
 		http://www.springframework.org/schema/aop/spring-aop-3.2.xsd ">
 
 	<!-- 注解驱动 -->
-	<mvc:annotation-driven>
+	<!-- <mvc:annotation-driven>
 		<mvc:message-converters>
 			<ref bean="mappingJackson2HttpMessageConverter" />
 		</mvc:message-converters>
@@ -22,7 +22,7 @@
 				<value>application/json;charset=UTF-8</value>
 			</list>
 		</property>
-		<!-- 空值不参与序列化 -->
+		空值不参与序列化
 		<property name="objectMapper">
 			<bean class="com.fasterxml.jackson.databind.ObjectMapper">
 				<property name="serializationInclusion">
@@ -35,14 +35,16 @@
                </property>  
  			</bean>
 		</property>
-	</bean>
+	</bean> -->
 
 	<!-- 描述conctroller -->
-	<context:component-scan base-package="com.ky.sorry.controller" />
+	<context:component-scan base-package="com.ky.lebron.controller" />
+	<!-- 加的一句 -->
+	<mvc:annotation-driven />
 
 
 	<!-- 开启aop，对类代理 -->
-	<aop:config proxy-target-class="true"></aop:config>
+	<!-- <aop:config proxy-target-class="true"></aop:config> -->
 	<!-- 拦截器 -->
 	
 	<!-- 后续将拦截器改成替换修改refer -->

@@ -19,6 +19,7 @@ public class IndexController {
 	@RequestMapping("index/{id}")
 	public String getIndexById(@PathParam(value = "id")String id ){
 		
+		
 		return null;
 	}
 }
